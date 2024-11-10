@@ -4,4 +4,9 @@ let reversedCompanyName = "";
 
 // Start coding here
 
+reversedCompanyName = [...companyName].splice(' ').reverse().join('');
+
+  
+
+
 console.log(reversedCompanyName);
